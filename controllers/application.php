@@ -1,6 +1,6 @@
 <?php
 class application extends Controller{
-
+dvz
 	public function notfound()
 	{
 		$this->render('notfound');
@@ -12,5 +12,5 @@ class application extends Controller{
 		header('Location: '.WEBROOT);
 	}
 
-	
+
 }
